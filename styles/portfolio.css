@@ -175,9 +175,36 @@ main section{
     margin-top: 50px;
     
 }
+
+    
+
 footer{
+    display: flex;
     margin-top: 100px;
     display: flex;
     background: #fff8f3;
     padding: 130px 200px;
+    gap: 100px;
 }
+.footer-column{
+
+    width: 50%;
+    .social-links a{
+         margin-right: 25px;
+
+    }
+}
+.contact input, textarea{
+
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    
+}
+#sub{
+
+    color:#fff;
+}
+
