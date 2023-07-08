@@ -17,7 +17,7 @@ nav  {
    font-weight: 800;
 }
 .text-or{
-    color: orange;
+    color:#FD6E0A;
 }
 nav > ul{
 
@@ -31,7 +31,7 @@ nav li{
 }
 .btn-pr{
     border-radius: 5px;
-    background-color: orange;
+    background-color: #FD6E0A;
     border: 0;
     color: #fff;
     padding: 15px 30px;
@@ -79,13 +79,15 @@ nav li{
     border-radius: 10px;
     background-color: #fff8f3;
     margin: 130px 0;
+ 
 }
 .section-title{
 
-   color: #181818;
+   color: #267b79;
    text-align: center;
    font-size: 35px;
    font-weight: 700;
+   text-shadow: 2px 2px #16bc93;
 
 }
 .sec-info{
@@ -93,6 +95,23 @@ nav li{
    color: #1e1e1e;
    font-size: 18px;
    text-align: center;
+   text-shadow:2px 2px rgb(205, 205, 168);
 
 
+}
+main{
+
+
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.about-contain{
+
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+
+   text-align: center;
+   
 }
