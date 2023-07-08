@@ -1,0 +1,39 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav  {
+
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+
+   color: #181818;
+   font-size: 45px;
+   font-weight: 800;
+}
+.text-or{
+    color: orange;
+}
+nav > ul{
+
+display: flex;
+align-items: center;
+}
+nav li{
+
+    list-style: none;
+    margin-right: 50px;
+}
+.btn-pr{
+    border-radius: 5px;
+    background-color: orange;
+    border: 0;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
